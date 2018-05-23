@@ -1,3 +1,5 @@
+yum install epel-release 
+yum install python-pip
 python -m ensurepip --default-pip
 import boto3
 s3 = boto3.resource('s3')
